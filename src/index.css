@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;1,600&display=swap');
 
 :root {
-    --primary-color: BA9100#;
+    --primary-color: #BA9100;
 }
 
 span {
     color: var(--primary-color);
+    text-shadow: .05rem 0 .08rem #BA9100;
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    color: white;
+    text-shadow: .05rem 0 .08rem white;
+    letter-spacing: .08rem;
 }
 
 body {
@@ -39,15 +43,25 @@ a {
 
 p {
     font-size: 1.2rem;
+    font-weight: 600;
     line-height: 1.4;
+
 }
 
 h1 {
     font-size: 3.5rem;
+    font-weight: 500;
+    letter-spacing: .5rem;
+}
+
+h1 span {
+    letter-spacing: .5rem;
 }
 
 h2 {
     font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: .5rem;
 }
 
 h3 {
@@ -74,12 +88,12 @@ button {
     border-radius: 4px;
 }
 
-button:hover {
+/* button:hover {
     background-color: #47dcff;
     border: 1px solid #47dcff;
-}
+} */
 
-@media screen and (max0width: 940px) {
+/* @media screen and (max-width: 940px) {
     h1 {
         font-size: 3rem;
     }
@@ -87,4 +101,4 @@ button:hover {
     h2 {
         font-size: 2.5rem;
     }
-}
+} */
