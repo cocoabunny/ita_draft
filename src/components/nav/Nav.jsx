@@ -1,6 +1,6 @@
 import React from 'react'
 import './NavStyles.css'
-import '../nav../components/assets/ITA_logo_bare.pdf'
+// import '../nav../components/assets/ITA_logo_bare.pdf'
 
 const Nav = () => {
     return (
