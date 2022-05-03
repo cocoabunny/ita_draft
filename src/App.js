@@ -33,16 +33,26 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <main className="flex-grow bg-black">
-        {/* <img src="assets/vertical-home-hero.jpg" alt="tools 'n stuff" /> */}
-        <div className="flex-row justify-evenly">
-          <OffHeader title_1="ITA" title_2="PANELS" />
-          <SecHeader title="SERVICES" />
-          <SecBody section="BLAH BLAH BLAH" />
-          <OffSecHeader title_1="PANEL" title_2="BEATING" />
-          <SecBody section="BLAH BLAH BLAH" />
-          <SecHeader title="SPRAYING" />
-          <SecBody section="BLAH BLAH BLAH" />
+      <main className="w-full h-screen bg-black text-white">
+        <div className="md:bg-white xl:bg-yellow-300 ">
+          {/* <img src="assets/vertical-home-hero.jpg" alt="tools 'n stuff" className="max-w-full h-auto md:hidden lg:hidden" /> */}
+          <div className="flex flex-col space-y-[1em] text-[#ff0000] justify-evenly object-cover">
+            <div className="xs:hidden sm:hidden md:hidden lg:bg-black xl:hidden">HI</div>
+            <h1 className="text-4xl mt-8 ml-8 mb-8 bg-white w-3/5 p-4">PAGE TITLE</h1>
+            <h2 className="p-6 text-2xl ml-8 bg-orange-300 w-3/5">Title</h2>
+            <p className="p-8 ml-16 text-xl bg-cyan-400 w-3/5">SECTION</p>
+            <h2 className="p-4 text-2xl ml-8 bg-orange-300 w-3/5">Title</h2>
+            <p className="p-8 ml-16 text-xl bg-cyan-400 w-3/5">SECTION</p>
+            <h2 className="p-4 text-2xl ml-8 bg-orange-300 w-3/5">Title</h2>
+            <p className="p-8 ml-16 text-xl bg-cyan-400 w-3/5">SECTION</p>
+            {/* <OffHeader title_1="ITA" title_2="PANELS" />
+            <SecHeader title="SERVICES" />
+            <SecBody section="BLAH BLAH BLAH" />
+            <OffSecHeader title_1="PANEL" title_2="BEATING" />
+            <SecBody section="BLAH BLAH BLAH" />
+            <SecHeader title="SPRAYING" />
+            <SecBody section="BLAH BLAH BLAH" /> */}
+          </div>
         </div>
       </main>
 
