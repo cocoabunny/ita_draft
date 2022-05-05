@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import Footer_Logo from "./components/t-wind_elements/Footer_Logo";
 import OffHeader from "./components/t-wind_elements/OffHeader"
 import OffSecHeader from "./components/t-wind_elements/OffSecHeader";
 import SecBody from "./components/t-wind_elements/SecBody";
@@ -34,7 +35,7 @@ function App() {
 
       {/* Hero Section */}
       <main className="w-full h-screen bg-black text-white">
-        <div className="h-screen md:bg-slate-700 xl:bg-yellow-300 ">
+        <div className="md:bg-slate-700 xl:bg-yellow-300 ">
           {/* <img src="assets/vertical-home-hero.jpg" alt="tools 'n stuff" className="max-w-full h-auto md:hidden lg:hidden" /> */}
           <div className="flex flex-col text-[#ff0000] mx-8">
             <h1 className="text-4xl mt-[2em] bg-white w-3/5 p-4 md:w-[40vw] md:bg-wide-home xl:text-6xl xl:w-[30vw]">PAGE TITLE</h1>
@@ -55,7 +56,21 @@ function App() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white">3</footer>
+      <footer className="bg-gray-900 text-white">
+        <div className="flex justify-between">
+          <img src="/Footer-Logo.svg" alt="ita logo" className="h-24 w-auto m-[1.5em]" />
+          <div className="flex flex-col justify-center items-center justify-around w-full bg-green-800">
+            <ul className="p-2 text-[.8em] xl:flex xl:flex-row text-[1em]">
+              <li className="my-4 xl:mx-[2em]">EMAIL: GORDAN@GMAIL.COM</li>
+              <li className="my-4 xl:mx-[2em]">1/6 HAMMER CT HOPPERS CROSSING, VIC 52203</li>
+              <li className="my-4 xl:mx-[2em]">DEVELOPED BY SANTOS DEVELOPMENT </li>
+            </ul>
+          </div>
+
+          <img src="Footer-Arrow.svg" alt="quick-scroll up arrow icon" className=" h-14 w-auto m-[2em]"></img>
+        </div>
+
+      </footer>
 
     </div>
   );
