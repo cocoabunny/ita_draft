@@ -91,7 +91,7 @@ function App() {
         <div className="flex flex-col">
           {/* Title */}
           <div className="bg-teal-600 md:bg-violet-300 xl:bg-purple-800 text-4xl flex justify-center py-[1.2em]">
-            <h1 className="text-orange-500 md:pl-[2em]">SPRAYING</h1>
+            <h1 className="text-orange-500 text-5xl md:text-6xl">SPRAYING</h1>
           </div>
           {/* Container */}
           <div className="flex flex-col mt-[2em] ml-[2em] md:ml-[3em] xl:ml-[4em] md md:mt-[3em] xl:mt-[4em] h-[80vh] ">
@@ -123,7 +123,35 @@ function App() {
         </div>
       </div>
 
-
+      {/* Panel Beating Page */}
+      <div className="w-full h-screen bg-rose-900 md:bg-cyan-900 xl:bg-emerald-900">
+        <div className="flex flex-col">
+          {/* Title */}
+          <div className="text-4xl md:text-6xl bg-black px-[8.5em] self-center md:bg-transparent md:pt-[.7em]">
+            <h1 className="text-white ">PANEL</h1>
+            <h1 className="text-orange-500 pl-[2em] md:pl-[2.4em]">BEATING</h1>
+          </div>
+          {/* Container */}
+          <div className="flex flex-col mt-[2em] ml-[2em] md:ml-[3em] xl:ml-[4em] md md:mt-[3em] xl:mt-[4em] h-[80vh] ">
+            {/* Section 1*/}
+            <div className="bg-indigo-600 md:emerald-400 xl:slate-600 flex w-1/4 justify-start grow-0 mb-[1em] md:self-center md:ml-[4em] md:mt-[6em] xl:ml-[11.4em] ">
+              <h2 className="text-3xl text-white md:text-4xl">INFO I</h2>
+            </div>
+            {/* Paragraph 1*/}
+            <div className="bg-purple-200 md:bg-blue-200 xl:bg-rose-100 p-[.2em] mx-[4em] md:w-2/5 md:px-[2em] md:self-center md:ml-[18em] xl:ml-[33em]">
+              <p className="text-orange-500">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+            </div>
+            {/* Section 2*/}
+            <div className="bg-indigo-600 md:emerald-400 xl:slate-600 flex w-1/4 justify-start mb-[1em] mt-[6em] md:mt-[6em] xl:mt-[6em]">
+              <h2 className="text-3xl text-white md:text-4xl">INFO II</h2>
+            </div>
+            {/* Paragraph 2*/}
+            <div className="bg-purple-200 md:bg-blue-200 xl:bg-rose-100 p-[.2em] mx-[4em] md:mx-[5.1em] md:mt-[1em] md:ml-[6.1em]">
+              <p className="text-orange-500">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
       {/* Footer */}
       <footer className="bg-gray-900 text-white">
