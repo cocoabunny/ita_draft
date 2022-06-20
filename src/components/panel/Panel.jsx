@@ -2,22 +2,37 @@ import React from 'react'
 
 const Panel = () => {
     return (
-        <div className="panel">
-            <div className="container">
-                <div className="header">
-                    <h1>PANEL<br /><span>BEATING</span></h1>
-                </div>
-                <div className="content">
-                    <div className="section_1">
-                        <h2>GORDON’S</h2>
-                        <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+        <div>
+            {/* Panel Beating Page */}
+            <div className="w-full h-screen bg-rose-900 md:bg-cyan-900 xl:bg-emerald-900">
+                <div className="flex flex-col">
+                    {/* Title */}
+                    <div className="text-4xl md:text-6xl bg-black px-[8.5em] self-center md:bg-transparent md:pt-[.7em]">
+                        <h1 className="text-white ">PANEL</h1>
+                        <h1 className="text-orange-500 pl-[2em] md:pl-[2.4em]">BEATING</h1>
                     </div>
-                    <div className="section_2">
-                        <h2>NAUGHTY</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar sem nec est luctus, a varius lorem facilisis. Vestibulum in risus at augue aliquam finibus. Nam dignissim dignissim ullamcorper. Morbi.</p>
+                    {/* Container */}
+                    <div className="flex flex-col mt-[2em] ml-[2em] md:ml-[3em] xl:ml-[4em] md md:mt-[3em] xl:mt-[4em] h-[80vh] ">
+                        {/* Section 1*/}
+                        <div className="bg-indigo-600 md:emerald-400 xl:slate-600 flex w-1/4 justify-start grow-0 mb-[1em] md:self-center md:ml-[4em] md:mt-[6em] xl:ml-[11.4em] ">
+                            <h2 className="text-3xl text-white md:text-4xl">INFO I</h2>
+                        </div>
+                        {/* Paragraph 1*/}
+                        <div className="bg-purple-200 md:bg-blue-200 xl:bg-rose-100 p-[.2em] mx-[4em] mt-[2em] md:w-2/5 md:px-[2em] md:self-center md:ml-[18em] xl:ml-[33em]">
+                            <p className="text-orange-500">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+                        </div>
+                        {/* Section 2*/}
+                        <div className="bg-indigo-600 md:emerald-400 xl:slate-600 flex w-1/4 justify-start grow-0 mb-[1em] md:self-center md:ml-[4em] md:mt-[6em] xl:ml-[11.4em] ">
+                            <h2 className="text-3xl text-white md:text-4xl">INFO II</h2>
+                        </div>
+                        {/* Paragraph 2*/}
+                        <div className="bg-purple-200 md:bg-blue-200 xl:bg-rose-100 p-[.2em] mx-[4em] mt-[2em] md:w-2/5 md:px-[2em] md:self-center md:ml-[18em] xl:ml-[33em]">
+                            <p className="text-orange-500">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+                        </div>
                     </div>
                 </div>
             </div>
+
         </div>
     )
 }

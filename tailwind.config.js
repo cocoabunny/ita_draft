@@ -4,10 +4,11 @@ module.exports = {
   ],
   theme: {
     extend: {
-      // backgroundImage: {
-      //   'vertical-home': "url('./public/assets/vertical-home-hero.jpg')",
-      //   "wide-home": "url('./public/assets/Wide-Home.jpg')"
-      // }
+      backgroundImage: {
+        "mobile": "url('public/assets/Contact.jpg')",
+        'tablet': "url('assets/Contact-Map.png')"
+
+      }
     },
   },
   plugins: [],
