@@ -6,7 +6,7 @@ const Contact = () => {
 
             {/* Contact Page  */}
             <div className="h-screen w-full flex flex-col text-white md:bg-orange-200 xl:bg-green-200">
-                <img src="assets/Contact.jpg" alt="Mobile Background Image, classic 1950's car" className="md:hidden h-screen w-full  relative" />
+                <img src="assets/ITA_Test-16.jpg" alt="Mobile Background Image, classic 1950's car" className="md:hidden h-screen w-full  relative" />
                 <div className="absolute">
                     <main className="mx-[3em]">
                         {/* Enquiries Header */}

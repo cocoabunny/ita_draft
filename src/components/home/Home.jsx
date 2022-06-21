@@ -4,7 +4,7 @@ const Home = () => {
     return (
         <div className="w-full h-screen bg-black md:bg-slate-700 xl:bg-yellow-300 text-white">
             {/* Home Section */}
-            <img src="assets/vertical-home-hero.jpg" alt="Mobile Background Image: Tools n Stuff" className="md:hidden h-screen w-full absolute" />
+            <img src="assets/ITA_Test-39.jpg" alt="Mobile Background Image: Tools n Stuff" className="md:hidden h-screen w-full absolute" />
             <main className="relative">
                 <div>
                     {/* <img src="assets/vertical-home-hero.jpg" alt="tools 'n stuff" className="max-w-full h-auto md:hidden lg:hidden" /> */}

@@ -5,10 +5,14 @@ const Spray = () => {
         <div>
             {/* Spraying Page */}
             <div className="w-full h-screen bg-red-200 md:bg-slate-400 xl:bg-yellow-200">
-                <div className="flex flex-col">
+                <img src="assets/ITA_Test-23.jpg" alt="A dirty dusty workshop" className="md:hidden h-screen w-full absolute" />
+                <div className="flex flex-col relative">
                     {/* Title */}
-                    <div className="bg-teal-600 md:bg-violet-300 xl:bg-purple-800 text-4xl flex justify-center py-[1.2em]">
-                        <h1 className="text-orange-500 text-5xl md:text-6xl">SPRAYING</h1>
+                    <div className="bg-teal-600 md:bg-violet-300 xl:bg-purple-800 text-4xl flex justify-center  h-32">
+                        <img src="assets/ITA_Test-9.jpg" alt="A Blah Blah Blah" className="object-cover h-full w-full relative" />
+                        <div className="absolute">
+                            <h1 className="text-orange-500 text-5xl md:text-6xl py-[.6em]">SPRAYING</h1>
+                        </div>
                     </div>
                     {/* Container */}
                     <div className="flex flex-col mt-[2em] ml-[2em] md:ml-[3em] xl:ml-[4em] md md:mt-[3em] xl:mt-[4em] h-[80vh] ">

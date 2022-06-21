@@ -6,7 +6,7 @@ const Address = () => {
       {/* Address Info Section */}
 
       <div className="h-screen w-full flex flex-col  text-white md:bg-orange-200 xl:bg-green-200">
-        <img src="assets/Contact.jpg" alt="Mobile Background Image, classic 1950's car" className="md:hidden h-screen w-full  absolute" />
+        <img src="assets/ITA_Test-72.jpg" alt="Mobile Background Image, classic 1950's car" className="md:hidden h-screen w-full  absolute" />
         <main className="mx-[3em] relative">
           <div>
             <section className="flex flex-col items-start font-semibold">

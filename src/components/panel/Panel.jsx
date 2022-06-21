@@ -5,11 +5,15 @@ const Panel = () => {
         <div>
             {/* Panel Beating Page */}
             <div className="w-full h-screen bg-rose-900 md:bg-cyan-900 xl:bg-emerald-900">
-                <div className="flex flex-col">
+                <img src="assets/ITA_Test-84.jpg" alt="A dirty dusty workshop" className="md:hidden h-screen w-full absolute" />
+                <div className="flex flex-col relative">
                     {/* Title */}
-                    <div className="text-4xl md:text-6xl bg-black px-[8.5em] self-center md:bg-transparent md:pt-[.7em]">
-                        <h1 className="text-white ">PANEL</h1>
-                        <h1 className="text-orange-500 pl-[2em] md:pl-[2.4em]">BEATING</h1>
+                    <div className="text-4xl md:text-6xl md:pt-[.7em] w-full flex justify-center">
+                        <img src="assets/ITA_Test-64.jpg" alt="A Blah Blah Blah" className="object-cover h-[2.5em] w-full relative" />
+                        <div className="absolute">
+                            <h1 className="text-white">PANEL</h1>
+                            <h1 className="text-orange-500 pl-[2em] md:pl-[2.4em]">BEATING</h1>
+                        </div>
                     </div>
                     {/* Container */}
                     <div className="flex flex-col mt-[2em] ml-[2em] md:ml-[3em] xl:ml-[4em] md md:mt-[3em] xl:mt-[4em] h-[80vh] ">
