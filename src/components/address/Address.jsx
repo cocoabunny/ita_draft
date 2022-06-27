@@ -5,15 +5,16 @@ const Address = () => {
     <div>
       {/* Address Info Section */}
 
-      <div className="h-screen w-full flex flex-col  text-white md:bg-orange-200 xl:bg-green-200">
-        <img src="assets/ITA_Test-72.jpg" alt="Mobile Background Image, classic 1950's car" className="md:hidden h-screen w-full  absolute" />
+      <div className="h-screen w-full flex flex-col text-white md:bg-orange-200 xl:bg-green-200">
+        <img src="assets/ITA_Test-72.jpg" alt="Classic 1950's car" className="md:hidden h-full w-full  absolute" />
         <main className="mx-[3em] relative">
           <div>
             <section className="flex flex-col items-start font-semibold">
-              <h2 className="text-4xl xl:5xl text-yellow-600 font-bold xl:font-semibold tracking-wider bg-yellow-200 w-1/2 p-1">ADDRESS</h2>
+              <h2 className="text-4xl xl:5xl text-yellow-600 font-bold tracking-wider bg-yellow-200 w-1/2 mt-6 p-1">ADDRESS</h2>
               <p className="p-1 bg-cyan-300">Our Shop is located at <br /></p>
               <p className="text-yellow-600 bg-yellow-200 p-1">Factory 1/3 Hammer Ct,<br />Hoppers Crossing, <br /> Victoria, 3029 </p>
               <div className="bg-pink-300 w-full py-[12em] mt-[4em] mb-8">
+                
                 {/* Google Maps Embed Container */}
 
               </div>

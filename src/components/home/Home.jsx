@@ -2,17 +2,17 @@ import React from 'react'
 
 const Home = () => {
     return (
-        <div className="w-full h-screen bg-black md:bg-slate-700 xl:bg-yellow-300 text-white">
+        <div className="w-full h-screen bg-home-mobile bg-cover xl:bg-home-tablet  text-white">
             {/* Home Section */}
-            <img src="assets/ITA_Test-39.jpg" alt="Mobile Background Image: Tools n Stuff" className="md:hidden h-screen w-full absolute" />
+            {/* <img src="assets/ITA_Test-39.jpg" alt="Tools n Stuff" className="md:hidden h-screen w-full absolute" /> */}
             <main className="relative">
                 <div>
                     {/* <img src="assets/vertical-home-hero.jpg" alt="tools 'n stuff" className="max-w-full h-auto md:hidden lg:hidden" /> */}
                     <div className="flex flex-col mx-8">
-                        <div className="text-3xl md:4xl">
-                            <h1 className="">ITA</h1><br />
-                            <h1 className="text-yellow-500">Panels</h1>
-                        </div>
+                        <div className="text-4xl pl-[2em] mt-[1.5em] md:py-[.2em] xl:mt-[3em] mb-6 md:font-semibold">
+                        <h1 className="text-white md:pl-[2em]">ITA</h1>
+                        <h1 className="text-orange-500 pl-[1.5em] md:pl-[3.8em] md:pt-3">PANELS</h1>
+                    </div>
 
                         {/* Article */}
                         <div className="space-y-1 mt-[em] md:space-y-8 xl:mt-[5em]">
