@@ -4,16 +4,12 @@ const Panel = () => {
     return (
         <div>
             {/* Panel Beating Page */}
-            <div className="w-full h-screen bg-rose-900 md:bg-cyan-900 xl:bg-emerald-900">
-                <img src="assets/ITA_Test-84.jpg" alt="A dirty dusty workshop" className="md:hidden h-screen w-full absolute" />
-                <div className="flex flex-col relative">
+            <div className="bg-panel-mobile xl:bg-panel-tablet w-full h-screen bg-cover">
+                <div className="flex flex-col">
                     {/* Title */}
-                    <div className="text-4xl md:text-6xl md:pt-[.7em] w-full flex justify-center">
-                        <img src="assets/ITA_Test-64.jpg" alt="A Blah Blah Blah" className="object-cover h-[2.5em] w-full relative" />
-                        <div className="absolute">
-                            <h1 className="text-white">PANEL</h1>
-                            <h1 className="text-orange-500 pl-[2em] md:pl-[2.4em]">BEATING</h1>
-                        </div>
+                    <div className="text-6xl md:text-7xl font-medium md:semibold ] w-full flex flex-col justify-center items-center bg-panel-span bg-cover bg-center h-[20vh] drop-shadow-2xl shadow-black ">
+                            <h1 className="text-yellow-600 pr-[3em]">PANEL</h1>
+                            <h1 className="text-white first-letter:pl-[2em] md:pl-[2.4em]">BEATING</h1>
                     </div>
                     {/* Container */}
                     <div className="flex flex-col mt-[3em] ml-[2em] md:ml-[3em] xl:ml-[4em] md md:mt-[3em] xl:mt-[4em] h-[80vh] ">

@@ -5,12 +5,11 @@ const Service = () => {
         <div>
             {/* Services Page */}
             <div className="w-full h-screen bg-services-mobile bg-cover xl:bg-services-tablet">
-                {/* <img src="assets/ITA_Test-94.jpg" alt=" A dirty dusty workshop" className="md:hidden h-screen w-full absolute" /> */}
-                <div className="flex flex-col mx-[1.2em] absolute">
+                <div className="flex flex-col mx-[1.2em]">
                     {/* Title */}
-                    <div className="bg-lime-600 md:bg-slate-600 xl:bg-emerald-800 text-4xl pl-[2em] mt-[1.5em] md:py-[.2em] xl:mt-[3em] ">
-                        <h1 className="text-white md:pl-[2em]">ICONIC</h1>
-                        <h1 className="text-orange-500 pl-[2em] md:pl-[5.2em]">PHRASE</h1>
+                    <div className="bg-lime-600 md:bg-slate-600 xl:bg-emerald-800 text-6xl md:text-7xl font-semibold pl-2 mt-[1.5em] md:py-[.2em] xl:mt-[3em] flex flex-col justify-center items-start">
+                        <h1 className="text-white ">ICONIC</h1>
+                        <h1 className="text-orange-500 pl-[2.1em] ">PHRASE</h1>
                     </div>
                     {/* Section Style 1*/}
                     <div className="bg-emerald-800 md:lime-600 xl:slate-600 mt-[22em]  w-2/5 ml-[13em] pl-[2em] md:mt-[27em] xl:w-1/6 xl:mt-[7em] xl:ml-[3em]">

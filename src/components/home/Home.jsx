@@ -4,14 +4,13 @@ const Home = () => {
     return (
         <div className="w-full h-screen bg-home-mobile bg-cover xl:bg-home-tablet  text-white">
             {/* Home Section */}
-            {/* <img src="assets/ITA_Test-39.jpg" alt="Tools n Stuff" className="md:hidden h-screen w-full absolute" /> */}
-            <main className="relative">
+
+            <main className="">
                 <div>
-                    {/* <img src="assets/vertical-home-hero.jpg" alt="tools 'n stuff" className="max-w-full h-auto md:hidden lg:hidden" /> */}
                     <div className="flex flex-col mx-8">
-                        <div className="text-4xl pl-[2em] mt-[1.5em] md:py-[.2em] xl:mt-[3em] mb-6 md:font-semibold">
-                        <h1 className="text-white md:pl-[2em]">ITA</h1>
-                        <h1 className="text-orange-500 pl-[1.5em] md:pl-[3.8em] md:pt-3">PANELS</h1>
+                        <div className="text-6xl md:text-7xl mt-[.5em] md:py-[.2em] xl:mt-[3em] mb-6 flex flex-col justify-center items-start font-semibold">
+                        <h1 className="text-white">ITA</h1>
+                        <h1 className="text-orange-500 pl-[1.5em] md:pt-3">PANELS</h1>
                     </div>
 
                         {/* Article */}
