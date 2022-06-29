@@ -19,6 +19,7 @@ module.exports = {
         'address-tablet': "url(/public/assets/ITA_Test-81.jpg)",
         'spray-span': "url(/public/assets/ITA_Test-20.jpg)",
         'panel-span': "url(/public/assets/ITA_Test-31.jpg)",
+        'footer-span': "url(/public/assets/ITA_Test-104.jpg)",
       }
     },
   }, 
