@@ -14,18 +14,18 @@ const Nav = () => {
     return (
         <div>
             {/* Nav Bar */}
-            <nav className=" px-8 py-4 bg-gray-900 text-white flex justify-between items-center md:text-orange-500 static">
-                <div className="md:bg-white flex flex-row justify-between md:w-full">
+            <nav name="top" className=" px-8 py-4 bg-gray-900 text-white flex justify-between items-center md:text-orange-500 static">
+                <div className="md:bg-cyan-500 flex flex-row justify-between md:w-full">
                     {/* Business Logo */}
                     <img src="/logo.svg" alt="ITA Panels" className="h-16 w-auto items-start" />
 
                     <h1 className="sr-only">ITA Panels</h1>
                     <div className="{click ? 'nav active' : 'nav'} ">
                         {/* Nav Links */}
-                        <NavLink link="#" >Home</NavLink>
-                        <NavLink link="#">Services</NavLink>
-                        <NavLink link="#">Blog</NavLink>
-                        <NavLink link="#">Contact</NavLink>
+                        <NavLink link="/" >Home</NavLink>
+                        <NavLink link="/info">Services</NavLink>
+                        {/* <NavLink link="#">Blog</NavLink> */}
+                        <NavLink link="/enquiries">Contact</NavLink>
                     </div>
                 </div>
                 {/* Hamburger menu */}
@@ -40,10 +40,10 @@ const Nav = () => {
 
                 {/* Mobile Nav */}
                 <ul className=' md:hidden flex flex-col text-3xl'>
-                    <NavLink link="#" >Home</NavLink>
-                    <NavLink link="#">Services</NavLink>
-                    <NavLink link="#">Blog</NavLink>
-                    <NavLink link="#">Contact</NavLink>
+                    <NavLink link="/" >Home</NavLink>
+                    <NavLink link="/info">Services</NavLink>
+                    {/* <NavLink link="#">Blog</NavLink> */}
+                    <NavLink link="/enquiries">Contact</NavLink>
                 </ul>
             </nav>
         </div>
