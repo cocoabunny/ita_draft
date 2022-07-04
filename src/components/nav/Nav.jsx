@@ -14,12 +14,13 @@ const Nav = () => {
     return (
         <div>
             {/* Nav Bar */}
-            <nav name="top" className=" px-8 py-4 bg-gray-900 text-white flex justify-between items-center md:text-orange-500 static">
+            <nav name="top" className="bg-gray-900 md:text-orange-500  text-white flex justify-between items-center static px-8 py-4">
                 <div className="md:bg-cyan-500 flex flex-row justify-between md:w-full">
                     {/* Business Logo */}
                     <img src="/logo.svg" alt="ITA Panels" className="h-16 w-auto items-start" />
 
-                    <h1 className="sr-only">ITA Panels</h1>
+                    {/* Whatever is happening on line 23 i've forgotten it's relevance */}
+                    <h1 className="sr-only">ITA Panels</h1> 
                     <div className="{click ? 'nav active' : 'nav'} ">
                         {/* Nav Links */}
                         <NavLink link="/" >Home</NavLink>
@@ -28,18 +29,14 @@ const Nav = () => {
                         <NavLink link="/enquiries">Contact</NavLink>
                     </div>
                 </div>
-                {/* Hamburger menu */}
-                {/* <svg onClick={handleClick} xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 block sm:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-          <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-        </svg> */}
                 <div onClick={handleClick} className="block md:hidden">
                     {click ? (<AiOutlineClose className="bg-orange-400" />) : (<AiOutlineMenu className=
-                        "w-10 h-10 ml- bg-blue-200" />)}
+                        "bg-blue-200 w-10 h-10 " />)}
 
                 </div>
 
                 {/* Mobile Nav */}
-                <ul className=' md:hidden flex flex-col text-3xl'>
+                <ul className=' text-3xl flex flex-col md:hidden '>
                     <NavLink link="/" >Home</NavLink>
                     <NavLink link="/info">Services</NavLink>
                     {/* <NavLink link="#">Blog</NavLink> */}
