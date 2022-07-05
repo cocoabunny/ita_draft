@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div>
             {/* Footer */}
-            <footer className="text-orange-500 font-bold min-w-[472px] min-h-[144px]">
+            <footer className="text-ITA font-bold min-w-[472px] min-h-[144px]">
                 <div className="bg-footer-span bg-cover bg-center flex justify-between">
                     <img src="/Footer-Logo.svg" alt="ita logo" className="h-24 w-auto m-[1.5em]" />
                     <div className="flex flex-col justify-center items-center w-full">

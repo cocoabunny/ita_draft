@@ -9,7 +9,7 @@ const Spray = () => {
                     {/* Title */}
                     <div className="bg-spray-span bg-cover bg-center flex flex-col justify-center items-center text-4xl drop-shadow-2xl shadow-black h-[20vh]"> 
                         <div className="">
-                            <h1 className="text-orange-500 text-6xl md:text-7xl tracking-widest font-semibold md:font-medium py-[.6em] pt-16 ">SPRAYING</h1>
+                            <h1 className="text-ITA text-6xl md:text-7xl tracking-widest font-semibold md:font-medium py-[.6em] pt-16 ">SPRAYING</h1>
                         </div>
                     </div>
                     {/* Container */}
@@ -20,7 +20,7 @@ const Spray = () => {
                         </div>
                         {/* Paragraph 1*/}
                         <div className="mx-[5.1em] md:mx-[5.1em] md:mt-[1em] md:ml-[6.1em] p-[.2em]">
-                            <p className="text-orange-500">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+                            <p className="text-ITA">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
                         </div>
                         {/* Section 2*/}
                         <div className="flex justify-start w-1/4 mb-[1em] mt-[6em] md:mt-[6em] xl:mt-[6em]">
@@ -28,7 +28,7 @@ const Spray = () => {
                         </div>
                         {/* Paragraph 2*/}
                         <div className="mx-[4em] md:mx-[5.1em] md:mt-[1em] md:ml-[6.1em] p-[.2em] ">
-                            <p className="text-orange-500">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+                            <p className="text-ITA">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
                         </div>
                         {/* Section 3*/}
                         <div className="flex justify-start w-1/4 mb-[1em] mt-[6em] md:mt-[6em] xl:mt-[6em]">
@@ -36,7 +36,7 @@ const Spray = () => {
                         </div>
                         {/* Paragraph 3*/}
                         <div className="p-[.2em] mx-[4em] md:mx-[5.1em] md:mt-[1em] md:ml-[6.1em]">
-                            <p className="text-orange-500">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+                            <p className="text-ITA">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
                         </div>
                     </div>
                 </div>

@@ -8,7 +8,7 @@ const Panel = () => {
                 <div className="flex flex-col">
                     {/* Title */}
                     <div className="bg-panel-span bg-cover bg-center flex flex-col justify-center items-center text-6xl md:text-7xl font-medium md:semibold drop-shadow-2xl shadow-black w-full h-[20vh]">
-                            <h1 className="text-orange-500 pr-[3em]">PANEL</h1>
+                            <h1 className="text-ITA pr-[3em]">PANEL</h1>
                             <h1 className="text-white pl-[2em] md:pl-[2.4em]">BEATING</h1>
                     </div>
                     {/* Container */}
@@ -19,7 +19,7 @@ const Panel = () => {
                         </div>
                         {/* Paragraph 1*/}
                         <div className="md:self-center md:w-2/5 p-[.2em] mx-[4em] mt-[2em] md:px-[2em] md:ml-[18em] xl:ml-[33em]">
-                            <p className="text-orange-500">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+                            <p className="text-ITA">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
                         </div>
                         {/* Section 2*/}
                         <div className="flex justify-start md:self-center grow-0 w-1/4 mb-[1em] mt-[3em] md:ml-[4em] md:mt-[6em] xl:ml-[11.4em] ">
@@ -27,7 +27,7 @@ const Panel = () => {
                         </div>
                         {/* Paragraph 2*/}
                         <div className="md:self-center p-[.2em] mx-[4em] mt-[2em] md:w-2/5 md:px-[2em] md:ml-[18em] xl:ml-[33em]">
-                            <p className="text-orange-500">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+                            <p className="text-ITA">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
                         </div>
                     </div>
                 </div>

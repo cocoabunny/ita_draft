@@ -20,7 +20,11 @@ module.exports = {
         'spray-span': "url(/public/assets/ITA_Test-20.jpg)",
         'panel-span': "url(/public/assets/ITA_Test-31.jpg)",
         'footer-span': "url(/public/assets/ITA_Test-104.jpg)",
-      }
+        'logo-white': "url(/public/assets/ITA_logo_white.jpg)",
+      },
+      colors: {
+'ITA': '#ff4500',
+      },
     },
   }, 
   plugins: [],
