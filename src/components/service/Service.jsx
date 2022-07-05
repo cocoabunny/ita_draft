@@ -4,7 +4,7 @@ const Service = () => {
     return (
         <div>
             {/* Services Page */}
-            <div className="bg-services-mobile xl:bg-services-tablet bg-cover w-full h-screen">
+            <div className="bg-services-mobile xl:bg-services-tablet bg-cover w-full min-w-[472px] min-h-screen">
                 <div className="flex flex-col mx-[1.2em]">
                     {/* Title */}
                     <div className="text-6xl md:text-7xl font-semibold flex flex-col justify-center items-start pl-2 mt-[1.5em] md:py-[.2em]">

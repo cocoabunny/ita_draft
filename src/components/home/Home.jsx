@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
     return (
-        <div className="bg-home-mobile bg-cover xl:bg-home-tablet text-white w-full h-screen ">
+        <div className="bg-home-mobile bg-cover xl:bg-home-tablet text-white w-full min-w-[472px] min-h-screen ">
             {/* Home Section */}
 
             <main className="">
@@ -16,7 +16,7 @@ const Home = () => {
                         {/* Article */}
                         <div className="xl:font-semibold">
                             <h2 className="text-3xl xl:text-4xl w-[65vw] md:w-[30vw] xl:w-[20vw] md:p-2 pl-2 ">Title</h2>
-                            <p className="text-xl text-orange-500 h-auto w-[80vw] p-2 md:ml-[10vw] xl:w-[60vw] xl:ml-[10vw] ">Sed libero nibh, sodales eget mattis in, feugiat at leo. Aliquam sagittis, lorem vel facilisis sodales, ipsum nulla mollis erat, at fermentum orci justo et sem. Nunc suscipit tincidunt dapibus.</p>
+                            <p className="text-xl text-orange-500 h-auto w-[80vw] md:ml-[10vw] xl:w-[60vw] xl:ml-[10vw] p-2">Sed libero nibh, sodales eget mattis in, feugiat at leo. Aliquam sagittis, lorem vel facilisis sodales, ipsum nulla mollis erat, at fermentum orci justo et sem. Nunc suscipit tincidunt dapibus.</p>
                         </div>
                         {/* Article */}
                         <div className="xl:font-semibold mt-[1.8em] xl:mt-[.2em] ">
@@ -27,7 +27,7 @@ const Home = () => {
                         {/* Article */}
                         <div className="xl:font-semibold mt-[1.8em] xl:mt-[.2em]">
                             <h2 className="text-3xl xl:text-4xl w-[65vw] md:w-[30vw] xl:w-[20vw] md:p-2 pl-2  ">Title</h2>
-                            <p className="text-xl text-orange-500 h-auto  w-[80vw] xl:w-[60vw] md:ml-[10vw] xl:ml-[10vw] p-2  ">Curabitur cursus turpis euismod, blandit orci sed, laoreet arcu. Nam imperdiet tempor tempus. In in ante ullamcorper, ultrices leo sit amet, facilisis enim. Quisque erat enim, vestibulum ullamcorper sagittis sed.
+                            <p className="text-xl text-orange-500 h-auto w-[80vw] xl:w-[60vw] md:ml-[10vw] xl:ml-[10vw] p-2  ">Curabitur cursus turpis euismod, blandit orci sed, laoreet arcu. Nam imperdiet tempor tempus. In in ante ullamcorper, ultrices leo sit amet, facilisis enim. Quisque erat enim, vestibulum ullamcorper sagittis sed.
 </p>
                         </div>
                     </div>
