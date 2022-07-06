@@ -15,7 +15,7 @@ const Contact = () => {
                         </div>
                         <section>
                             {/* Email Form Section */}
-                            <form className="flex flex-col items-center p-2 mt-[8em] xl:mt-[6em]" action="https://getform.io/f/d22de29e-6da9-438e-b41e-fe764c61ba09" method="POST">
+                            <form className="flex flex-col items-center p-2 mt-[8em] xl:mt-[6em]" action="https://getform.io/f/1d0ed3b7-27ca-4ea8-91d3-297462433d1e" method="POST">
                                 <label for="email" className="text-3xl text-ITA font-semibold tracking-wide xl:text-4xl self-start md:self-center xl:self-start md:ml-[1.5em] xl:ml-0" >EMAIL</label>
                                 <br />
                                 <input type="text" id="email" name="email" className="md:self-end xl:self-start opacity-75 text-ITA font-semibold shadow-sm shadow-white w-3/5 md:w-2/5 xl:ml-[7.7em] ml-[8em] md:ml-[9.6em] "></input>
