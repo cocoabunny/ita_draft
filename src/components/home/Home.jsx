@@ -4,7 +4,6 @@ const Home = () => {
     return (
         <div className="bg-home-mobile bg-cover xl:bg-home-tablet text-white w-full min-w-[472px] min-h-screen ">
             {/* Home Section */}
-
             <main className="">
                 <div>
                     <div className="flex flex-col mx-8">
@@ -12,22 +11,22 @@ const Home = () => {
                         <h1 className="text-white">ITA</h1>
                         <h1 className="text-ITA pl-[1.5em] md:pt-3">PANELS</h1>
                     </div>
-
                         {/* Article */}
                         <div className="xl:font-semibold">
-                            <h2 className="text-3xl xl:text-4xl w-[65vw] md:w-[30vw] xl:w-[20vw] md:p-2 pl-2 ">Title</h2>
-                            <p className="text-xl text-ITA h-auto w-[80vw] md:ml-[10vw] xl:w-[60vw] xl:ml-[10vw] p-2">Sed libero nibh, sodales eget mattis in, feugiat at leo. Aliquam sagittis, lorem vel facilisis sodales, ipsum nulla mollis erat, at fermentum orci justo et sem. Nunc suscipit tincidunt dapibus.</p>
-                        </div>
-                        {/* Article */}
-                        <div className="xl:font-semibold mt-[1.8em] xl:mt-[.2em] ">
-                            <h2 className="text-3xl xl:text-4xl w-[65vw] md:w-[30vw] xl:w-[20vw] md:p-2 pl-2 ">Title</h2>
-                            <p className="text-xl text-ITA h-auto w-[80vw] xl:w-[60vw] md:ml-[10vw] xl:ml-[10vw]  p-2 ">Mauris vel diam at lorem bibendum commodo non at metus. Quisque vestibulum, erat ut accumsan rhoncus, enim tellus pharetra tortor, sed feugiat libero lacus vitae est. Sed ante quam, aliquet.
+                            <h2 className="text-3xl xl:text-4xl w-[65vw] md:w-[30vw] xl:w-[20vw] md:p-2 pl-2 ">Proven Reliability</h2>
+                            <p className="text-xl text-ITA h-auto w-[80vw] md:ml-[10vw] xl:w-[60vw] xl:ml-[10vw] p-2">ITA Panels has been providing quality accident care and body work to the western melbourne region for the last 15 years. 
 </p>
                         </div>
                         {/* Article */}
-                        <div className="xl:font-semibold mt-[1.8em] xl:mt-[.2em]">
-                            <h2 className="text-3xl xl:text-4xl w-[65vw] md:w-[30vw] xl:w-[20vw] md:p-2 pl-2  ">Title</h2>
-                            <p className="text-xl text-ITA h-auto w-[80vw] xl:w-[60vw] md:ml-[10vw] xl:ml-[10vw] p-2  ">Curabitur cursus turpis euismod, blandit orci sed, laoreet arcu. Nam imperdiet tempor tempus. In in ante ullamcorper, ultrices leo sit amet, facilisis enim. Quisque erat enim, vestibulum ullamcorper sagittis sed.
+                        <div className="xl:font-semibold mt-[1.8em] xl:mt-[.2em] ">
+                            <h2 className="text-3xl xl:text-4xl w-[65vw] md:w-[30vw] xl:w-[20vw] md:p-2 pl-2 ">Automotive Excellence</h2>
+                            <p className="text-xl text-ITA h-auto w-[80vw] xl:w-[60vw] md:ml-[10vw] xl:ml-[10vw]  p-2 ">Our workers have a passion for working on anything with wheels, whether it’s a Holden Astra, Porsche 911, or  a Honda Goldwing; the ITA team’s dedication to excellence translates to every aspect of our craft.
+</p>
+                        </div>
+                        {/* Article */}
+                        <div className="xl:font-semibold mt-[1.8em] xl:mt-[.2em] mb-[.6em]">
+                            <h2 className="text-3xl xl:text-4xl w-[65vw] md:w-[30vw] xl:w-[20vw] md:p-2 pl-2  ">Quality Care</h2>
+                            <p className="text-xl text-ITA h-auto w-[80vw] xl:w-[60vw] md:ml-[10vw] xl:ml-[10vw] p-2  ">So if you’ve been in an automotive accident, need general body work, or are simply interested in a respray, ITA has your back.
 </p>
                         </div>
                     </div>
