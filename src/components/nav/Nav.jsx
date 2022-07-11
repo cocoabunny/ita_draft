@@ -1,49 +1,63 @@
 import React, { useState } from 'react'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 
-
+// Link props destructured in the links function
+const links = [
+    {
+        name: 'Home',
+        link: '/'
+    },
+    {
+        name: 'Services',
+        link: '/info'
+    },
+    {
+        name: 'Contact',
+        link: '/enquiries'
+    }
+]
 
 const NavLink = ({ link, children }) => {
-    return <a href={link} className="text-2xl hidden sm:block">{children}</a>
+    return <a href={link} className="text-white hover:text-ITA text-xl">{children}</a>
 }
 
 const Nav = () => {
     const [click, setClick] = useState(false)
-    const handleClick = () => setClick(!click)
 
     return (
-        <div>
+        <div className="bg-black px-8 py-4">
             {/* Nav Bar */}
-            <nav name="top" className="bg-gray-900 md:text-ITA  text-white flex justify-between items-center w-full min-w-[472px] static px-8 py-4">
-                <div className="md:bg-cyan-500 flex flex-row justify-between md:w-full">
-                    {/* Business Logo */}
-                    {/* <img src='' alt="ITA Panels" className="h-16 w-auto items-start" /> */}
-                    <div className='bg-logo-white h-16 w-auto items-start'></div>
+            <nav name="top" className="flex justify-between items-center w-full static">
+                <div className="flex flex-row items-center justify-between sm:justify-start gap-6 w-full">
+                    {/* Logo / Header */}
+                    <div>
+                        <h1 className="sr-only">ITA Panels</h1> 
+                        {/* png's good jpg bad redo it, export as a svg is possible with photopea or updated photoshop on pc */}
+                        {/* TODO: Fix this logo - not displaying */}
+                        <img alt="ITA Panels logo" src="/final-test.svg" className="h-12 w-auto mr-4" />
+                    </div>
 
-                    {/* Whatever is happening on line 23 i've forgotten it's relevance */}
-                    <h1 className="sr-only">ITA Panels</h1> 
-                    <div className="{click ? 'nav active' : 'nav'} ">
-                        {/* Nav Links */}
-                        <NavLink link="/" >Home</NavLink>
-                        <NavLink link="/info">Services</NavLink>
-                        {/* <NavLink link="#">Blog</NavLink> */}
-                        <NavLink link="/enquiries">Contact</NavLink>
+                    {/* Navigation Links */}
+                    <nav className='hidden sm:flex gap-6'>
+                        {links.map(({ name, link }) => (
+                            <NavLink key={name} link={link}>{name}</NavLink>
+                        ))}
+                    </nav>
+
+                    <div className="sm:hidden">
+                        <button type="button" className="text-white hover:text-ITA" aria-controls="hamburger" aria-expanded="false" onClick={() => setClick(!click)}>
+                            {click ? <AiOutlineClose className="text-3xl"/> : <AiOutlineMenu  className="text-3xl"/>}
+                        </button>
                     </div>
                 </div>
-                <div onClick={handleClick} className="block md:hidden">
-                    {click ? (<AiOutlineClose className="bg-ITA" />) : (<AiOutlineMenu className=
-                        "bg-blue-200 w-10 h-10 " />)}
-
-                </div>
-
-                {/* Mobile Nav */}
-                <ul className=' text-3xl flex flex-col md:hidden '>
-                    <NavLink link="/" >Home</NavLink>
-                    <NavLink link="/info">Services</NavLink>
-                    {/* <NavLink link="#">Blog</NavLink> */}
-                    <NavLink link="/enquiries">Contact</NavLink>
-                </ul>
             </nav>
+            {click && (
+                <ul className="flex flex-col gap-3 mt-4 sm:hidden">
+                    {links.map(({ name, link }) => (
+                        <NavLink key={name} link={link}>{name}</NavLink>
+                    ))}
+                </ul>
+            )}
         </div>
     )
 }

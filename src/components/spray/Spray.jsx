@@ -16,7 +16,7 @@ const Spray = () => {
                     <div className="flex flex-col h-[80vh] mt-[2em] ml-[2em] md:ml-[3em] xl:ml-[4em] md:mt-[3em] xl:mt-[4em]">
                          {/* Title 1*/}
                          <div className="flex justify-start w-14/5 mb-[1em] mt-[2em] md:mt-[6em] xl:mt-[6em]">
-                            <h2 className="text-3xl md:text-4xl text-white font-semibold ">SPRAYER GO SPSHH SPSHHH</h2>
+                            <h2 className="text-3xl md:text-4xl text-white font-semibold ">Final Touch</h2>
                         </div>
                         {/* Article 1*/}
                         <div className="mx-[5.1em] md:mx-[5.1em] md:mt-[1em] md:ml-[6.1em] p-[.2em]">
