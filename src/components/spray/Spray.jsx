@@ -16,22 +16,21 @@ const Spray = () => {
                     <div className="flex flex-col h-[80vh] mt-[2em] ml-[2em] md:ml-[3em] xl:ml-[4em] md:mt-[3em] xl:mt-[4em]">
                          {/* Title 1*/}
                          <div className="flex justify-start w-14/5 mb-[1em] mt-[2em] md:mt-[6em] xl:mt-[6em]">
-                            <h2 className="text-3xl md:text-4xl text-white font-semibold ">Final Touch</h2>
+                            <h2 className="text-4xl md:text-5xl text-white font-semibold ">FINAL TOUCH</h2>
                         </div>
                         {/* Article 1*/}
                         <div className="mx-[5.1em] md:mx-[5.1em] md:mt-[1em] md:ml-[6.1em] p-[.2em]">
-                            <p className="text-ITA font-semibold">ITA's Spraying team provides spraying and detailing services that render the vehicle's coat indistinguishable from the factory coat. Our shop in Hoppers Crossing features a fully functioning Australian made Seetal spraying booth.
+                            <p className="text-ITA font-semibold md:text-xl">ITA's Spraying team provides spraying and detailing services that render the vehicle's coat indistinguishable from the factory coat. Our shop in Hoppers Crossing features a fully functioning Australian made Seetal spraying booth.
 </p>
                         </div>
                         {/* Title 2*/}
                         <div className="flex justify-start w-4/5 mb-[1em] mt-[5em] md:mt-[6em] xl:mt-[6em]">
-                            <h2 className="text-3xl md:text-4xl text-white font-semibold ">SPRAYING SERVICES</h2>
+                            <h2 className="text-4xl md:text-5xl text-white font-semibold ">SPRAYING SERVICES</h2>
                         </div>
                         {/* Article 2*/}
-                        <div className="mx-[4em] md:mx-[5.1em] md:mt-[1em] md:ml-[6.1em] p-[.2em] ">
-                            <p className="text-ITA font-semibold">At ITA, we can respray and fit: Tubs, Ute Trays, Tray Tool Boxes and much more.
-ITA specialises in prestige spraying and restoration for anything with wheels
-Nothing leaves our shop without getting the stamp of approval from our Owner Gordon McCammon</p>
+                        <div className="mx-[5.1em] md:mx-[5.1em] md:mt-[1em] md:ml-[6.1em] p-[.2em] ">
+                            <p className="text-ITA font-semibold md:text-xl">ITA offers respraying and fitting for: tubs, ute trays, tray tool boxes and much more.
+Our shop specialises in prestige spraying and restoration for anything with wheels; worry not, nothing leaves our shop without getting the stamp of approval from our owner Gordon McCammon</p>
                         </div>
                     </div>
                 </div>

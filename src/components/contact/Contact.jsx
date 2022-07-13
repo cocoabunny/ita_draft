@@ -5,7 +5,7 @@ const Contact = () => {
         <div>
 
             {/* Contact Page  */}
-            <div className="bg-cover bg-contact-mobile xl:bg-contact-tablet flex flex-col text-white min-h-screen w-full min-w-[472px] ">
+            <div className="bg-cover bg-contact-mobile xl:bg-contact-tablet flex flex-col text-xl  text-white min-h-screen w-full min-w-[472px]">
                 <div className="">
                     <main className="mx-[3em]">
                         {/* Enquiries Header */}
@@ -18,7 +18,7 @@ const Contact = () => {
                             <form className="flex flex-col items-center p-2 mt-[8em] xl:mt-[6em]" action="https://getform.io/f/1d0ed3b7-27ca-4ea8-91d3-297462433d1e" method="POST">
                                 <label for="email" className="text-3xl text-ITA font-semibold tracking-wide xl:text-4xl self-start md:self-center xl:self-start md:ml-[1.5em] xl:ml-0" >EMAIL</label>
                                 <br />
-                                <input type="text" id="email" name="email" className="md:self-end xl:self-start opacity-75 text-ITA font-semibold shadow-sm shadow-white w-3/5 md:w-2/5 xl:ml-[7.7em] ml-[8em] md:ml-[9.6em] "></input>
+                                <input type="text" id="email" name="email" className="md:self-end xl:self-start opacity-75 text-ITA text-3xl font-semibold shadow-sm shadow-white w-3/5 md:w-2/5 xl:ml-[7.7em] ml-[8em] md:ml-[9.6em] "></input>
                                 <br />
                                 <label for="enquiry" className="text-3xl text-ITA  tracking-wide font-bold mr-[.3em] self-start xl:text-4xl">ENQUIRY INFO</label>
                                 <p className="font-semibold w-3/5 md:w-2/5 xl:w-1/4 ml-[13em] md:mr-[21.3em] xl:ml-[2.6em]">Please describe what services interest you and what vehicle you own</p>

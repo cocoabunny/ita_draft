@@ -6,7 +6,7 @@ const Address = () => {
     <div>
       {/* Address Info Section */}
 
-      <div className="bg-address-mobile xl:bg-address-tablet bg-cover text-white flex flex-col min-h-screen w-full min-w-[472px]">
+      <div className="bg-address-mobile xl:bg-address-tablet bg-cover text-xl  text-white flex flex-col min-h-screen w-full min-w-[472px]">
         <main className="mx-[3em]">
           <div>
             <section className="flex flex-col items-start font-semibold">
@@ -21,7 +21,7 @@ const Address = () => {
               <p className="text-ITA w-1/3 p-1 md:ml-[6.4em]">Stay up to date with us on instagram and facebook</p>
               <div className="flex flex-row">
                 {/* Social Media Icons Container */}
-                <button className="self-start text-white text-4xl p-3 "><BsInstagram/></button>
+                {/* <button className="self-start text-white text-4xl p-3 "><BsInstagram/></button> */}
                 <button className="self-center text-white text-4xl mx-3 p-3"><a href="https://www.facebook.com/ITA-Panels-609031302945712/"><BsFacebook/></a></button>
               </div>
             </section>

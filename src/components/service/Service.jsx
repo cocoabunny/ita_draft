@@ -13,25 +13,25 @@ const Service = () => {
                     </div>
                     {/* Section Style 1*/}
                     <div className="w-3/5 xl:w-1/4 ml-[11em] mt-[14em] md:mt-[18em] xl:mt-[7em] xl:ml-[1.7em] pl-[2em]">
-                        <h2 className="text-4xl text-ITA align-center md:text-5xl">OUR <strong className="text-white font-semibold">AIM</strong></h2>
+                        <h2 className="text-4xl md:text-5xl text-ITA align-center">OUR <strong className="text-white font-semibold">AIM</strong></h2>
                     </div>
                     {/* paragraph */}
-                    <div className="w-4/5 xl:w-1/4 mt-[.5em] ml-[1.5em] mr-[6em] xl:ml-[3em] xl:p-[1em]">
-                        <p className="text-ITA">is to provide <strong className="text-white font-semibold">every</strong> customer:
+                    <div className="w-4/5 xl:w-1/4 text-xl mt-[.5em] ml-[1.5em] mr-[6em] xl:ml-[3em] xl:p-[1em]">
+                        <p className="text-ITA">Is to provide <strong className="text-white font-semibold">every</strong> customer:
                         <ul className="text-white list-disc py-2">
-                            <li className="py-2 ">Honest, Unbiased, and <strong className="text-ITA font-semibold">most importantly</strong> free service quotes.</li>
+                            <li className="py-2 ">Honest, unbiased, and <strong className="text-ITA font-semibold">most importantly</strong> free service quotes.</li>
                             <li>Top of the line craftsmanship, executed with <strong className="text-ITA font-semibold">obsessive attention to detail.</strong></li>
                             <li>Swift completion times for <strong className="text-ITA font-semibold">every</strong> job from our shop</li>
                         </ul>
                         </p>
                     </div>
                     {/* Section Style 2*/}
-                    <div className="w-4/5 xl:w-1/4 px-[1.5em] mt-[1em] xl:ml-[16.2em]">
+                    <div className="w-4/5 xl:w-1/4 px-[1.5em] mt-[1em] xl:ml-[16.2em] 2xl:mt-[4em]">
                         <h2 className="text-4xl md:text-5xl text-ITA align-center ">OUR <strong className="text-white font-semibold">PROMISE</strong></h2>
                     </div>
                     {/* paragraph */}
                     <div className="w-4/5 xl:w-1/2 mt-[.5em] ml-[4.5em] md:mb-[.5em] xl:ml-[16.9em] xl:p-[1em]" >
-                        <p className="text-ITA">Is for you to drive away from every interaction with <strong className="text-white font-semibold">complete satisfaction</strong>, knowing that your vehicle was treated with the <strong className="text-white font-semibold">utmost care.</strong></p>
+                        <p className="text-ITA text-xl">Is for you to drive away from every interaction with <strong className="text-white font-semibold">complete satisfaction</strong>, knowing that your vehicle was treated with the <strong className="text-white font-semibold">utmost care.</strong></p>
                     </div>
                 </div>
             </div>
