@@ -5,12 +5,12 @@ const Contact = () => {
         <div>
 
             {/* Contact Page  */}
-            <div className="bg-cover bg-contact-mobile xl:bg-contact-tablet flex flex-col text-xl  text-white min-h-screen w-full min-w-[472px]">
+            <div className="bg-cover bg-contact-mobile xl:bg-contact-tablet flex flex-col sm:text-xl  text-white min-h-screen w-full min-w-[360px]">
                 <div className="">
-                    <main className="mx-[3em]">
+                    <main className="mx-[1em] sm:mx-[3em]">
                         {/* Enquiries Header */}
                         <div className="flex flex-col items-center mt-10">
-                            <h1 className="text-6xl text-ITA font-bold tracking-widest self-start xl:text-7xl xl:font-semibold">ENQUIRIES</h1>
+                            <h1 className="text-5xl sm:text-6xl text-ITA font-bold tracking-widest self-start xl:text-7xl xl:font-semibold">ENQUIRIES</h1>
                             <p className="ml-[13em] w-3/5 my-4 md:self-start md:ml-[6em] md:w-1/3 xl:w-1/6 xl:ml-[17.8em] font-semibold">Please fill out the form below for a quote.</p>
                         </div>
                         <section>
@@ -18,10 +18,10 @@ const Contact = () => {
                             <form className="flex flex-col items-center p-2 mt-[8em] xl:mt-[6em]" action="https://getform.io/f/1d0ed3b7-27ca-4ea8-91d3-297462433d1e" method="POST">
                                 <label for="email" className="text-3xl text-ITA font-semibold tracking-wide xl:text-4xl self-start md:self-center xl:self-start md:ml-[1.5em] xl:ml-0" >EMAIL</label>
                                 <br />
-                                <input type="text" id="email" name="email" className="md:self-end xl:self-start opacity-75 text-ITA text-3xl font-semibold shadow-sm shadow-white w-3/5 md:w-2/5 xl:ml-[7.7em] ml-[8em] md:ml-[9.6em] "></input>
+                                <input type="text" id="email" name="email" className="md:self-end xl:self-start opacity-75 text-ITA text-3xl font-semibold shadow-sm shadow-white w-3/5 md:w-2/5 xl:ml-[7.7em] sm:ml-[8em] md:ml-[9.6em] "></input>
                                 <br />
-                                <label for="enquiry" className="text-3xl text-ITA  tracking-wide font-bold mr-[.3em] self-start xl:text-4xl">ENQUIRY INFO</label>
-                                <p className="font-semibold w-3/5 md:w-2/5 xl:w-1/4 ml-[13em] md:mr-[21.3em] xl:ml-[2.6em]">Please describe what services interest you and what vehicle you own</p>
+                                <label for="enquiry" className="text-3xl text-ITA  tracking-wide font-semibold mr-[.3em] self-start xl:text-4xl">ENQUIRY INFO</label>
+                                <p className="font-semibold w-3/5 md:w-2/5 xl:w-1/4 my-[2em] sm:ml-[13em] md:mr-[21.3em] xl:ml-[2.6em]">Please describe what services interest you and what vehicle you own</p>
                                 <textarea type="text" id="enquiry" name="description" className="text-ITA font-semibold w-full xl:w-3/5 h-[280px] xl:h-[320px] shadow-sm opacity-75 shadow-white" minLength="25">Type here...</textarea>
                                 {/* my-4 mt-40 md:mt-5 py-10 md:py-[6em] */}
                                 <br />

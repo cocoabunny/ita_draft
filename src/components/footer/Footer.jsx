@@ -6,9 +6,9 @@ const Footer = () => {
     return (
         <div>
             {/* Footer */}
-            <footer className="text-ITA font-semibold min-w-[472px] min-h-[144px]">
-                <div className="bg-footer-span bg-cover bg-center flex justify-between">
-                    <img src="/ITA_Footer.png" alt="ita logo" className="h-16 mt-9 m-[1.5em]" />
+            <footer className="text-ITA font-semibold min-w-[360px] min-h-[144px]">
+                <div className="bg-footer-span bg-cover bg-center flex flex-col sm:flex-row justify-between">
+                    <img src="/ITA_Footer.png" alt="ita logo" className="h-16 mt-9 m-[1.5em] w-[14em] sm:w-auto" />
                     <div className="flex flex-col justify-center items-center w-full">
                         <ul className="xl:flex xl:flex-row p-2 ">
                             <li className="my-4 xl:mx-[2em] tracking-wide"><strong className="text-white">EMAIL:</strong> ITAPANELS@GMAIL.COM</li>

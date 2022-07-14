@@ -25,7 +25,7 @@ const Nav = () => {
     const [click, setClick] = useState(false)
 
     return (
-        <div className="bg-black px-8 py-4 min-w-[472px]">
+        <div className="bg-black px-8 py-4 min-w-[360px]">
             {/* Nav Bar */}
             <nav name="top" className="flex justify-between items-center w-full static">
                 <div className="flex flex-row items-center justify-between sm:justify-start gap-6 w-full">
