@@ -1,5 +1,5 @@
 import React from 'react'
-import { BsInstagram, BsFacebook } from 'react-icons/bs'
+import { BsFacebook } from 'react-icons/bs'
 
 const Address = () => {
   return (
