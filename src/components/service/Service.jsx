@@ -12,7 +12,7 @@ const Service = () => {
                         <h1 className="pl-[2.1em] md:pl-[2.17em]">WAY</h1>
                     </div>
                     {/* Section Style 1*/}
-                    <div className="w-3/5 xl:w-1/4 sm:ml-[11em] mt-[14em] md:mt-[18em] xl:mt-[7em] xl:ml-[1.7em] pl-[2em]">
+                    <div className="w-3/5 xl:w-1/4 sm:ml-[11em] px-[1.5em] mt-[14em] md:mt-[18em] xl:mt-[7em] xl:ml-[1.7em]">
                         <h2 className="text-4xl md:text-5xl text-ITA align-center">OUR <strong className="text-white font-semibold">AIM</strong></h2>
                     </div>
                     {/* paragraph */}
