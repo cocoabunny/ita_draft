@@ -5,13 +5,13 @@ const Contact = () => {
         <div>
 
             {/* Contact Page  */}
-            <div className="bg-cover bg-contact-mobile xl:bg-contact-tablet flex flex-col sm:text-xl  text-white min-h-screen w-full min-w-[360px]">
+            <div className="bg-cover bg-contact-mobile xl:bg-contact-tablet flex flex-col sm:text-xl  text-white min-h-[100vh] w-full min-w-[320px]">
                 <div className="">
                     <main className="mx-[1em] sm:mx-[3em]">
                         {/* Enquiries Header */}
                         <div className="flex flex-col items-center mt-10">
                             <h1 className="text-5xl sm:text-6xl text-ITA font-bold tracking-widest self-start xl:text-7xl xl:font-semibold">ENQUIRIES</h1>
-                            <p className="ml-[13em] w-3/5 my-4 md:self-start md:ml-[6em] md:w-1/3 xl:w-1/6 xl:ml-[17.8em] font-semibold">Please fill out the form below for a quote.</p>
+                            <p className="ml-[5em] w-3/5 my-4 md:self-start md:ml-[6em] md:w-1/3 xl:w-1/6 xl:ml-[17.8em] font-semibold">Please fill out the form below for a quote.</p>
                         </div>
                         <section>
                             {/* Email Form Section */}
