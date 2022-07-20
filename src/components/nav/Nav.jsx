@@ -46,7 +46,7 @@ const Nav = () => {
                     </nav>
 
                     <div className="sm:hidden">
-                        <button type="button" className="text-white hover:text-ITA" aria-controls="hamburger" aria-expanded="false" onClick={() => setClick(!click)}>
+                        <button aria-label="menu or exit button for mobile" type="button" className="text-white hover:text-ITA" aria-controls="hamburger" aria-expanded="false" onClick={() => setClick(!click)}>
                             {click ? <AiOutlineClose className="text-3xl"/> : <AiOutlineMenu  className="text-3xl"/>}
                         </button>
                     </div>
