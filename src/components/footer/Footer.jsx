@@ -17,7 +17,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <button aria-label="smooth-scroll button">
-                    <Link activeClass="active" to="top" spy={true} smooth={true} duration={500} >
+                    <Link href="navlink" activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <BsFillArrowUpCircleFill className='h-14 w-auto m-[2em]' />
                     </Link>
                     </button>
