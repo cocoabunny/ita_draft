@@ -12,7 +12,7 @@ module.exports = {
         // 'spray-mobile': "url(/public/assets/NONERN)",
         'spray-wide': "url(/public/assets/ITA-V3-5.jpg)",
         'panel-mobile': "url(/public/assets/ITA-V3-12.jpg)",
-        'panel-wide': "url(/public/assets/ITA-V3.1.jpg)",
+        'panel-wide': "url(/public/assets/ITA-V3.jpg)",
         'contact-mobile': "url(/public/assets/ITA-V3-8.jpg)",
         'contact-wide': "url(/public/assets/ITA-V3-9.jpg)",
         'address-mobile': "url(/public/assets/ITA-V3-10.jpg)",
