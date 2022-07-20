@@ -25,7 +25,7 @@ const Contact = () => {
                                 <textarea type="text" id="enquiry" name="description" placeholder="Type here..." className="text-ITA font-semibold w-full xl:w-3/5 h-[280px] xl:h-[320px] shadow-sm opacity-75 shadow-white" minLength="25"></textarea>
                                 {/* my-4 mt-40 md:mt-5 py-10 md:py-[6em] */}
                                 <br />
-                                <button className="bg-ITA rounded-sm xl:self-start px-7 py-1 mb-6 md:px-12 md:text-2xl md:pb-1" type="submit">Submit</button>
+                                <button aria-label="email submit button" className="bg-ITA rounded-sm xl:self-start px-7 py-1 mb-6 md:px-12 md:text-2xl md:pb-1" type="submit">Submit</button>
                             </form>
                         </section>
                     </main>

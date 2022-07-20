@@ -22,7 +22,7 @@ const Address = () => {
               <div className="flex flex-row">
                 {/* Social Media Icons Container */}
                 {/* <button className="self-start text-white text-4xl p-3 "><BsInstagram/></button> */}
-                <button className="self-center text-white text-[3em] p-3"><a href="https://www.facebook.com/ITA-Panels-609031302945712/"><BsFacebook/></a></button>
+                <button aria-label="facebook link" className="self-center text-white text-[3em] p-3"><a href="https://www.facebook.com/ITA-Panels-609031302945712/"><BsFacebook/></a></button>
               </div>
             </section>
           </div>

@@ -16,10 +16,11 @@ const Footer = () => {
                             <li className="my-4 xl:mx-[2em]"><strong className="text-white">DEVELOPER:</strong> CANAANDELOSSANTOS@GMAIL.COM </li>
                         </ul>
                     </div>
+                    <button aria-label="smooth-scroll button">
                     <Link activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <BsFillArrowUpCircleFill className='h-14 w-auto m-[2em]' />
                     </Link>
-                    {/* <img src="Footer-Arrow.svg" alt="quick-scroll up arrow icon" className=" h-14 w-auto m-[2em]"></img> */}
+                    </button>
                 </div>
 
             </footer>
