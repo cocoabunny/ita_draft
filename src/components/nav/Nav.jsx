@@ -27,6 +27,7 @@ const Nav = () => {
     return (
         <div className="bg-black px-8 py-4 min-w-[320px]">
             {/* Nav Bar */}
+            
             <nav name="top" className="flex justify-between items-center w-full static">
                 <div className="flex flex-row items-center justify-between sm:justify-start gap-6 w-full">
                     {/* Logo / Header */}

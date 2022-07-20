@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
     return (
-        <div className="bg-home-mobile bg-cover xl:bg-home-tablet text-white w-full min-w-[320px] min-h-[100vh] ">
+        <div className="bg-home-mobile bg-cover xl:bg-home-wide text-white w-full min-w-[320px] min-h-[100vh] ">
             {/* Home Section */}
             <main className="">
                 <div>

@@ -5,7 +5,7 @@ const Contact = () => {
         <div>
 
             {/* Contact Page  */}
-            <div className="bg-cover bg-contact-mobile xl:bg-contact-tablet flex flex-col sm:text-xl  text-white min-h-[100vh] w-full min-w-[320px]">
+            <div className="bg-cover bg-contact-mobile xl:bg-contact-wide flex flex-col sm:text-xl  text-white min-h-[100vh] w-full min-w-[320px]">
                 <div className="">
                     <main className="mx-[1em] sm:mx-[3em]">
                         {/* Enquiries Header */}

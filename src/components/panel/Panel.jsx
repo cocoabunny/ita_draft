@@ -4,7 +4,7 @@ const Panel = () => {
     return (
         <div>
             {/* Panel Beating Page */}
-            <div className="bg-panel-mobile xl:bg-panel-tablet bg-cover sm:text-xl w-full min-w-[320px] min-h-[100vh]">
+            <div className="bg-panel-mobile xl:bg-panel-wide bg-cover sm:text-xl w-full min-w-[320px] min-h-[100vh]">
                 <div className="flex flex-col">
                     {/* Title */}
                     <div className="bg-panel-span bg-cover bg-center flex flex-col justify-center items-center text-6xl md:text-7xl font-medium md:semibold drop-shadow-2xl shadow-black w-full min-h-[20vh]">

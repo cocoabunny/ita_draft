@@ -6,7 +6,7 @@ const Address = () => {
     <div>
       {/* Address Info Section */}
 
-      <div className="bg-address-mobile xl:bg-address-tablet bg-cover text-xl  text-white flex flex-col min-h-[100vh] w-full min-w-[320px]">
+      <div className="bg-address-mobile xl:bg-address-wide bg-cover text-xl  text-white flex flex-col min-h-[100vh] w-full min-w-[320px]">
         <main className=" mx-[1.3em] sm:mx-[3em]">
           <div>
             <section className="flex flex-col items-start font-semibold">
