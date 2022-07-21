@@ -4,7 +4,7 @@ const Spray = () => {
     return (
         <div>
             {/* Spraying Page */}
-            <div className="bg-black xl:bg-spray-wide bg-cover w-full min-w-[320px] min-h-[100vh]">
+            <div className="bg-black bg-spray-mobile xl:bg-spray-wide bg-cover w-full min-w-[320px] min-h-[100vh]">
                 <div className="flex flex-col">
                     {/* Title */}
                     <div className="bg-spray-span bg-cover bg-center flex flex-col justify-center items-center text-4xl drop-shadow-2xl shadow-white min-h-[20vh]"> 
