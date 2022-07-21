@@ -12,7 +12,7 @@ const Footer = () => {
                     <div className="flex flex-col justify-center items-center w-full">
                         <ul className="xl:flex xl:flex-row p-2 ">
                             <li className="my-4 xl:mx-[2em] tracking-wide"><strong className="text-white">EMAIL:</strong> ITAPANELS@GMAIL.COM</li>
-                            <li className="my-4 xl:mx-[2em]"><strong  className="text-white">1/6 HAMMER CT</strong> HOPPERS CROSSING, <strong className="text-white">VIC 52203</strong></li>
+                            <li className="my-4 xl:mx-[2em]"><strong  className="text-white">3/6 HAMMER CT</strong> HOPPERS CROSSING, <strong className="text-white">VIC 3029</strong></li>
                             <li className="my-4 xl:mx-[2em]"><strong className="text-white">DEVELOPER:</strong> CANAANDELOSSANTOS@GMAIL.COM </li>
                         </ul>
                     </div>

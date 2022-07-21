@@ -12,7 +12,7 @@ const Address = () => {
             <section className="flex flex-col items-start font-semibold">
               <h2 className="text-6xl xl:text-7xl text-ITA font-bold tracking-wider w-1/2 mt-6 p-1">ADDRESS</h2>
               <p className="p-1">Our Shop is located at <br /></p>
-              <p className="text-ITA p-1">Factory 1/3 Hammer Ct,<br />Hoppers Crossing, <br /> Victoria, 3029 </p>
+              <p className="text-ITA p-1">Factory 3/6 Hammer Ct,<br />Hoppers Crossing, <br /> Victoria, 3029 </p>
                  {/* Google Maps Embed Container */}
               <div className= "w-full shadow-xl opacity-80">
     <iframe classname="" title="map" height="484px" width="100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.382056252458!2d144.72362985124013!3d-37.87474697964192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad6898250b04c87%3A0x2743d590425cc4a9!2sITA%20Panel&#39;s!5e0!3m2!1sen!2sau!4v1656925151706!5m2!1sen!2sau"></iframe>
