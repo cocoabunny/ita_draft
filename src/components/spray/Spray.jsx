@@ -30,7 +30,7 @@ const Spray = () => {
                         {/* Article 2*/}
                         <div className="sm:mx-[5.1em] md:mx-[5.1em] md:mt-[1em] md:ml-[6.1em] p-[.2em] ">
                             <p className="text-white sm:text-ITA font-semibold md:text-xl">ITA offers respraying and fitting for: tubs, ute trays, tray tool boxes and much more.
-Our shop specialises in prestige spraying and restoration for anything with wheels; worry not, nothing leaves our shop without getting the stamp of approval from our owner Gordon McCammon</p>
+Our shop specialises in prestige spraying and restoration for anything with wheels; worry not, nothing leaves our shop without getting the stamp of approval from our owner Gordan McCammon</p>
                         </div>
                     </div>
                 </div>
