@@ -14,7 +14,7 @@ const Home = () => {
                         {/* Article */}
                         <div className="xl:font-semibold xl:mt-[6em]">
                             <h2 className="text-3xl xl:text-4xl 2xl:text-5xl w-[65vw] md:w-[30vw] xl:w-[20vw] md:p-2 pl-2 ">Proven Reliability</h2>
-                            <p className="text-xl text-ITA h-auto w-[80vw] md:ml-[10vw] xl:w-[60vw] xl:ml-[10vw] p-2">ITA Panels has been providing quality accident care and body work to the western melbourne region for the last 15 years. 
+                            <p className="text-xl text-ITA h-auto w-[80vw] md:ml-[10vw] xl:w-[60vw] xl:ml-[10vw] p-2">ITA Panels has been providing quality accident care and body work to the Western Melbourne region for the last 15 years. 
 </p>
                         </div>
                         {/* Article */}
